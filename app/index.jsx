@@ -1,6 +1,7 @@
 import { Text, View, Image } from "react-native";
 
 export default function Index() {
+  
   const alumnos=[
     { 
     "nl": 1,
@@ -24,7 +25,7 @@ export default function Index() {
       style={{
         flex: 1,
         justifyContent: "center",
-        alignItems: "center",
+        alignItems: "left",
         }}
     >
 

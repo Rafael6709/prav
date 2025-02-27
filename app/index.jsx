@@ -26,13 +26,17 @@ export default function Index() {
         flex: 1,
         justifyContent: "center",
         alignItems: "left",
+        backgroundColor: "gray", 
         }}
     >
 
      {alumnos.map(a => (
         <View key={a.nl}>
-          <Text>Nombre: {a.nl}</Text>
-          <Text>Nombre: {a.nombre}</Text>
+          <Text style={{color:"white"}}> Nombre: {a.nl} 
+            
+
+          </Text>
+          <Text style={{color:"white"}} >Nombre: {a.nombre}</Text>
           <Image 
             style={{width: 100, height: 100, borderRadius:20}}
             source={{uri: a.imagen }} 
